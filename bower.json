@@ -1,0 +1,22 @@
+{
+  "name": "daily-time-scheduler",
+  "description": "jQuery daily time scheduler plugin",
+  "main": "jq.scheduler.js",
+  "keywords": [
+    "jquery",
+    "calendar",
+    "scheduler"
+  ],
+  "authors": [
+    "Gagandeep <gagansharma14aug@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/gagan148/Daily-Time-Scheduler",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
