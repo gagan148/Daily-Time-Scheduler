@@ -1,5 +1,6 @@
 {
   "name": "daily-time-scheduler",
+  "version": "0.1",
   "description": "jQuery daily time scheduler plugin",
   "main": "jq.scheduler.js",
   "keywords": [
