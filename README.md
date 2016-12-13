@@ -51,8 +51,8 @@ endTime: "21:00",
 // width(px)
 widthTimeX: 25,
 
-// cell timestamp example 10 minutes
-widthTime: 60 * 10, 
+// cell timestamp example 30 minutes
+widthTime: 60 * 30, 
 
 // height(px)
 timeLineY: 60,   
