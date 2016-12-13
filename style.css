@@ -1,0 +1,179 @@
+
+#schedule *,
+#schedule *::after, 
+#schedule *::before{
+	box-sizing: content-box !important;
+}
+#schedule .clear{ clear:both; height: 0; line-height: 0;}
+#schedule .sc_wrapper{
+}
+#schedule .sc_menu{
+	width:100%;
+	height:24px;
+}
+#schedule .sc_menu .sc_header_cell{
+	float:left;
+	background: #f9f9f9 none repeat scroll 0 0;
+	color: #414042;
+	border-left-color: #979797;
+	border-top: 1px solid #979797;
+	border-bottom: 1px solid #979797;
+	-webkit-box-shadow: 1px 0px 0px 0px #979797 inset;
+	-moz-box-shadow: 1px 0px 0px 0px #979797 inset;
+	-o-box-shadow: 1px 0px 0px 0px #979797 inset;
+	box-shadow: 1px 0px 0px 0px #979797 inset;
+}
+#schedule .sc_menu .sc_header{
+	float:left;
+	height:24px;
+	position:relative;
+	overflow:hidden;
+}
+#schedule .sc_menu .sc_header .sc_time{
+	text-align:center;
+	background: #f9f9f9 none repeat scroll 0 0;
+	border-left: 1px solid transparent;
+	border-bottom: 1px solid #979797;
+	border-top: 1px solid #979797;
+	font-family: Open Sans;
+	font-size: 12px;
+	-webkit-box-shadow: -1px 0px 0px 0px #979797 inset;
+	-moz-box-shadow: -1px 0px 0px 0px #979797 inset;
+	-o-box-shadow: -1px 0px 0px 0px #979797 inset;
+	box-shadow: -1px 0px 0px 0px #979797 inset;
+}
+#schedule .sc_menu .sc_header_cell,
+#schedule .sc_data{
+	float:left;
+	font-weight:bold;
+	color:#FFFFFF;
+	/*background:#333;*/
+	position:relative;
+}
+#schedule .sc_menu .sc_header_scroll,
+#schedule .sc_data .sc_data_scroll{
+	position:absolute;
+	left:0;
+	top:0;
+}
+#schedule .sc_menu .sc_header_cell,
+#schedule .sc_header .sc_time,
+#schedule .sc_main_scroll .sc_time{
+	color:#414042;
+	padding:4px 0;
+	line-height:14px;
+	height:14px;
+	display:block;
+}
+#schedule .sc_header .sc_time,
+#schedule .sc_main_scroll .sc_time{
+	float:left;
+}
+#schedule .sc_main_box,
+#schedule .sc_data{
+	max-height:500px;
+	overflow:hidden;
+}
+#schedule .sc_main_box{
+	float:left;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+#schedule .sc_main_scroll{
+}
+#schedule .sc_main{
+	position:relative;
+}
+#schedule .timeline{
+	position:relative;
+}
+#schedule .sc_Bar{
+	position:absolute;
+	color:#FFF;
+	cursor:pointer;
+	z-index:10;
+	background: #975E39;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	border: thin solid #874e29;
+	height: 56px !important;
+}
+#schedule .ui-draggable-dragging,
+#schedule .ui-resizeable{
+	z-index:20;
+}
+#schedule .sc_Bar .head{
+	display:block;
+	padding:2px 15px 0;
+	font-size:12px;
+	height:24px;
+	overflow:hidden;
+}
+#schedule .sc_Bar .text{
+	display:block;
+	padding:5px 15px 0;
+	font-weight:bold;
+	height:18px;
+	overflow:hidden;
+}
+#schedule .timeline,
+#schedule .sc_main .tb{
+	border-bottom:solid 2px #666;
+}
+#schedule .sc_data .timeline{
+	color: #414042;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+}
+#schedule .sc_data .timeline span{
+	display: table-cell;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+#schedule .sc_data .timeline span.photo{
+	float:left;
+	width:36px;
+	height:36px;
+	padding:10px 0 10px 10px;
+}
+#schedule .sc_data .timeline span.title{
+	float:left;
+	padding:10px 0 10px 10px;
+	width:92px;
+}
+#schedule .sc_main_scroll .sc_main{
+}
+#schedule .sc_main_scroll .sc_main .tl{
+	float:left;
+	height:100%;
+	border-right:solid 1px #979797;
+}
+#schedule .sc_main_scroll .sc_main .tl:hover{
+	background:#F0F0F0;
+}
+#schedule .sc_menu .sc_header,
+#schedule .sc_wrapper .sc_main_box {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+#schedule .sc_menu .sc_header .sc_time:nth-child(1){
+	border-left: 1px solid #979797;
+}
+#schedule .sc_data{
+	background: #f9f9f9 none repeat scroll 0 0;
+	color: #414042;
+	border-left-color: 1px solid #979797;
+	border-bottom: 0 none;
+}
+#schedule .sc_main_scroll .sc_main .tl:nth-child(odd){
+	border-right-style: dashed;	
+}
+#schedule .timeline, #schedule .sc_main .tb{
+	border-bottom: 1px solid #979797;
+	-webkit-box-shadow: 1px 0px 0px 0px #979797 inset;
+	-moz-box-shadow: 1px 0px 0px 0px #979797 inset;
+	-o-box-shadow: 1px 0px 0px 0px #979797 inset;
+	box-shadow: 1px 0px 0px 0px #979797 inset;
+}
